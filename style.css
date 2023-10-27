@@ -1,0 +1,276 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 900px;
+}
+
+header{
+    background-color: #233040;
+    height: 40px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#logo-img{
+    height: 40px;
+    width: auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: #197180;
+    font-weight: bold;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+main{
+    background-color: #e9edf0;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+
+.barra{
+    background-color: #364757;
+    margin: 0;
+    padding: 15px 5px;
+}
+
+#menu{
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 30px auto;
+}
+
+#container-gift{
+    background-color: #f56600;
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+
+#container-gift p{
+    padding: 5px 0px;
+    font-weight: lighter;
+    font-family: 'helvetica';
+}
+
+#barra-gift p{
+    margin: auto;
+    padding: 8px;
+}
+
+.bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container-gift2{
+    background-image: url('assets/bg-image.png');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+    color: white;
+    padding: 40px 0px;
+}
+
+#div-card{
+    padding: 20px 0px;
+    background-color: white;
+}
+
+
+.text-card{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#container-text-card{
+    margin-left: 15px;
+}
+
+.contenitore-card{
+    /* display: flex;
+    justify-content: center; */
+    margin: 10px 0px;
+    padding: 0px 15px;
+    height: 350px;
+}
+
+.card{
+    float: left;
+    margin: 0px 6px;
+    width: 280px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgb(215, 213, 213);
+}
+
+#card1{
+    background-image: url('assets/img_1.jpg');
+}
+#card2{
+    background-image: url('assets/img_2.jpg');
+}
+#card3{
+    background-image: url('assets/img_3.jpg');
+}
+#card4{
+    background-image: url('assets/img_4.jpg');
+}
+
+#play{
+    background-image: url('assets/img_9.png');
+    height: 350px;
+}
+
+.text-img{
+    width: fit-content;
+    margin: -20px auto;
+}
+
+.text-img h3, .text-img a{
+    display: inline-block;
+    margin: 0px 13px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#last-container{
+    background-image: url('assets/img_10.png');
+    height: 350px;
+}
+
+.footer{
+    background-color: #233040;
+}
+
+#back-to-top{
+    text-align: center;
+}
+
+#back-to-top a{
+    color: white;
+}
+
+.center{
+    width: 150px;
+    padding: 50px 0px;
+    margin: auto;
+}
+
+.center img{
+    width: 150px;
+}
+
+.container-category{
+    padding-top: 30px;
+    height: 500px;
+}
+
+.cat-block{
+    float: left;
+    padding: 10px;
+    margin: 4px;
+    width: 22.5%;
+    background-color: white;
+}
+
+.cat-card{
+    float: left;
+    margin: 5px;
+    width: 45%;
+    background-color: white;
+}
+
+.cat-img{
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cat-card h5{
+    margin-top: 3px;
+}
+
+
+#cat-card-img1{
+    background-image: url('assets/img_15.jpg');
+}
+#cat-card-img2{
+    background-image: url('assets/img_16.jpg');
+}
+#cat-card-img3{
+    background-image: url('assets/img_17.jpg');
+}
+#cat-card-img4{
+    background-image: url('assets/img_18.jpg');
+}
+#cat-card-img5{
+    background-image: url('assets/img_19.jpg');
+}
+#cat-card-img6{
+    background-image: url('assets/img_20.jpg');
+}
+#cat-card-img7{
+    background-image: url('assets/img_21.jpg');
+}
+#cat-card-img8{
+    background-image: url('assets/img_22.jpg');
+}
+#cat-card-img9{
+    background-image: url('assets/img_11.jpg');
+}
+#cat-card-img10{
+    background-image: url('assets/img_12.jpg');
+}
+#cat-card-img11{
+    background-image: url('assets/img_13.jpg');
+}
+#cat-card-img12{
+    background-image: url('assets/img_14.jpg');
+}
+#cat-card-img13{
+    background-image: url('assets/img_14.jpg');
+}
+#cat-card-img13{
+    background-image: url('assets/img_24.jpg');
+}
+#cat-card-img14{
+    background-image: url('assets/img_25.jpg');
+}
+#cat-card-img15{
+    background-image: url('assets/img_26.jpg');
+}
+#cat-card-img16{
+    background-image: url('assets/img_27.jpg');
+}
